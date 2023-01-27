@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>ELEFANTE Events - Söz % Nişan</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--push menu cart -->
+    <a href="https://api.whatsapp.com/send?phone=905345061011&text=Merhaba,%20bilgi%20almak%20istiyorum" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+    <div class="pushmenu pushmenu-left cart-box-container">
+        
+    </div>
+    <!-- End cart -->
+    <!--search popup-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-popup" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">SEARCH HERE</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <form method="get" class="searchform" action="/search" role="search">
+                            <input type="hidden" name="type" value="product">
+                            <input type="text" name="q" class="form-control control-search">
+                            <span class="input-group-btn">
+                                  <button class="btn btn-default button_search" type="button"><i data-toggle="dropdown" class="icon-icon-search"></i></button>
+                                </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END  Modal content-->
+    <div class="wrappage">
+            <header id="header" class="header-v5 v-sidebar">
+                <div class="awemenu-nav headroom" data-responsive-width="1200">
+                    <div class="container container-df hidden-xs hidden-sm">
+                        <div class="vow-topbar v2 v-remove">
+                            <div class="topbar-left v2 hidden-xs hidden-sm">
+                                <div class="has-element">
+                                    <div class="element-language dropdown">
+                                        <a id="label4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                
+                                  
+                                        
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            <div class="topbar-right">
+                                <div class="logo v5" style="max-width: 200px; padding-bottom: 20px;"><img src="img/logo.png" alt="logo"></div> 
+                            </div>
+                            
+                        </div>
+                        <div class="vow-topbar v2 sticky">
+                            <div class="topbar-left v2 hidden-xs hidden-sm">
+                                
+                                
+                               
+                            </div>
+                            <div class="topbar-right">
+                                <div class="logo v5"><img src="img/logo.png" alt="logo" style="max-width:150px;"></div>
+                                    <span class="vow-iconbar"></span>
+                                    <span class="vow-iconbar"></span>
+                                    <span class="vow-iconbar"></span>
+                                </button>
+                            </div>
+                            <nav class="main-menu js-open-menu">
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="nav navbar-nav js-menubar">
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="container container-75 hidden-md hidden-lg">
+                        <div class="vow-topbar v2">
+                            
+                            <div class="topbar-right">
+                                <div class="logo v5"><img src="img/logo.png" alt="logo" style="max-width:150px;  margin-left: 200%; padding-bottom: 20px;"></div>
+                                    <span class="vow-iconbar"></span>
+                                    <span class="vow-iconbar"></span>
+                                    <span class="vow-iconbar"></span>
+                                </button>
+                            </div>
+                            <nav class="main-menu js-open-menu">
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav js-menubar">
+                                        <li class="level1 active dropdown"><a href="#">Home</a>
+                                            <span class="plus js-plus-icon"></span>
+                                            <ul class="dropdown-menu menu-level-1 ">
+                                                <li class="level2"><a href="home-1.html" title="Homepage">Home 1</a></li>
+                                                <li class="level2"><a href="home-2.html" title="Homepage">Home 2</a></li>
+                                                <li class="level2"><a href="home-3.html" title="Homepage">Home 3</a></li>
+                                                <li class="level2"><a href="home-4.html" title="Homepage">Home 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="level1 active dropdown">
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li class="level1 dropdown hassub"><a href="#">Shop</a>
+                                            <span class="plus js-plus-icon"></span>
+                                            <div class="menu-level-1 dropdown-menu">
+                                                <ul class="level1">
+                                                    <li class="level2 col-4">
+                                                        <a href="#">Shop pages</a>
+                                                        <ul class="menu-level-2 col-6">
+                                                            <li class="level3"><a href="shop_full.html" title="">Shop — Full</a></li>
+                                                            <li class="level3"><a href="shop_grid.html" title="">Shop — Grid</a></li>
+                                                            <li class="level3"><a href="shop_list.html" title="">Shop — List</a></li>
+                                                            <li class="level3"><a href="shopping_cart.html" title="Shopping Cart ">Shopping Cart</a></li>
+                                                            <li class="level3"><a href="wishlist.html" title="Wishlist ">Wishlist</a></li>
+                                                            <li class="level3"><a href="checkout.html" title="Checkout ">Checkout</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="level2 col-4">
+                                                        <a href="# ">Collection</a>
+                                                        <ul class="menu-level-2 col-6">
+                                                            <li class="level3"><a href="collection_detail.html" title="Shop Collection">Collection Detail</a></li>
+                                                            <li class="level3"><a href="collection_detail2.html" title="Shop Collection">Collection Detail 2</a></li>
+                                                            <li class="level3"><a href="collection_detail3.html" title="Shop Collection">Collection Detail 3</a></li>
+                                                            <li class="level3"><a href="collection-full.html" title="Shop Collection">Collection Full</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="level2 col-4">
+                                                        <a href="#">Detail</a>
+                                                        <ul class="menu-level-2 col-6">
+                                                            <li class="level3"><a href="#" title="">Groom</a></li>
+                                                            <li class="level3"><a href="#" title="">Bride</a></li>
+                                                            <li class="level3"><a href="#" title="">Bridesmaids</a></li>
+                                                            <li class="level3"><a href="#" title="">Wedding</a></li>
+                                                            <li class="level3"><a href="#" title="">Secret garden</a></li>
+                                                            <li class="level3"><a href="shop_detail.html" title="Product Detail">Shop Detail</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="level2 col-4">
+                                                        <a href="#">Banner 1</a>
+                                                        <div class="mega-banner">
+                                                            <a href="#"><img src="img/Untitled-1.jpg" alt="" class="img-reponsive"></a>
+                                                        </div>
+                                                        <a href="#">Banner 2</a>
+                                                        <div class="mega-banner ">
+                                                            <a href="#"><img src="img/Untitled-2.jpg" alt="" class="img-reponsive"></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </li>
+                                        <li class="level1 active dropdown">
+                                            <a href="#">Blog</a>
+                                            <span class="plus js-plus-icon"></span>
+                                            <ul class="dropdown-menu menu-level-1">
+                                                <li class="level2"><a href="news.html" title="Blog Grid 3 Column">Blog Grid 3 Column</a></li>
+                                                <li class="level2"><a href="news2.html" title="Blog Grid 4 Column">Blog Grid 4 Column</a></li>
+                                                <li class="level2"><a href="news-sidebar.html" title="Blog Sidebar Left">Blog Sidebar Left</a></li>
+                                                <li class="level2"><a href="news_detail.html" title="Blog Detail">Blog Detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="level1 active dropdown">
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="page-left-sidebar v5">
+                <div class="navbar-wrapper v5 fix-height">
+                    <nav class="main-menu v5 hidden-xs hidden-sm">
+                        <div class="collapse navbar-collapse">
+                            
+                        </div>
+                    </nav>
+                    
+                </div>
+            </div>
+            <div class="page-right-content v5">
+                <div class="slider-home3 slider-home2">
+                    <div class="js-slider-home3">
+                        <div class="items">
+                            <img src="img/slider/h2_slide_1.jpg" alt="images">
+                            <div class="container">
+                                <div class="box-content-left text-ver2 " >
+                                    <p class="h3-slide-desc v2 h2-desc-c"style="color:white">Ankara</p>
+                                    <h3 class="h3-slide-title v3 h2-title-c" style="color:white">Söz & Nişan</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <img src="img/slider/h2_slide_2.jpg" alt="images">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <section id="contenthome2">
+                <div class="vow-collection" id="1">
+                    <div class="collection-content">
+                        <div class="container">
+                           <div class="row">
+                               <div class="col-xs-12 col-md-7 c-left colect-inner">
+                                   <h3 class="h2-colect-title v2">ELEFANTE</h3>
+                                   <p class="h2-colect-desc v2">2023 Koleksiyonu</p>
+                                   <div class="collection-item">
+                                       <a href="#" class="hover-images"><img src="img/groom_1.jpg" alt="" class="img-responsive"></a>
+                                       <div class="product-info v2">
+                                           <h3 class="product-title"><a href="#">Dekoratif Aksesuarlar</a></h3>
+                                       </div>
+                                   </div>
+                                   <div class="collection-item align-right align-left">
+                                       <a href="#" class="hover-images"><img src="img/groom_2.jpg" alt="" class="img-responsive"></a>
+                                       <div class="product-info v2 absolute-title">
+                                           <h3 class="product-title"><a href="#">Arka Plan Tasarımı</a></h3>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-xs-12 col-md-5 h2-colect-ovl">
+                                   <a href="#" class="hover-images"><img src="img/groom_3.jpg" alt="collection-img" class="img-responsive"></a>
+                               </div>
+                           </div> 
+                        </div>
+                    </div>
+
+                    <div class="collection-content v2" id="2">
+                        <div class="container">
+                           <div class="row">
+                               <div class="col-xs-12 col-md-7 colect-inner c-left">
+                                   <h3 class="h2-colect-title">ELEFANTE</h3>
+                                   <p class="h2-colect-desc">2023 Koleksiyonu</p>
+                                   <div class="collection-item align-right">
+                                       <a href="#" class="hover-images"><img src="img/bride_3.jpg" alt="" class="img-responsive"></a>
+                                       <div class="product-info v2">
+                                           <h3 class="product-title"><a href="#">Neon Yazılar</a></h3>
+                                       </div>
+                                   </div>
+                                   <div class="clearfix"></div>
+                                   <div class="collection-item align-left">
+                                       <a href="#" class="hover-images"><img src="img/bride_2.jpg" alt="" class="img-responsive"></a>
+                                       <div class="product-info v2 absolute-title">
+                                           <h3 class="product-title"><a href="#">Çiçekler & Vazolar</a></h3>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-xs-12 col-md-5 h2-colect-ovl v2">
+                                   <a href="#" class="hover-images"><img src="img/bride_1.jpg" alt="collection-img" class="img-responsive"></a>
+                               </div>
+                           </div> 
+                        </div>
+                    </div>
+                    
+                    <div class="new-collection">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 c-item">
+                                    <a href="#" class="hover-images">
+                                        <img src="img/home2_c1.jpg" alt="" class="img-reponsive">
+                                    </a>
+                                    <h3 class="h-colect-title v3">bahar</h3>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 c-item">
+                                    <a href="#" class="hover-images">
+                                        <img src="img/home2_c2.jpg" alt="" class="img-reponsive">
+                                    </a>
+                                    <h3 class="h-colect-title v3">yaz</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-slide">
+                    
+                        <div class="quote v2">
+                            <div class="owl-carousel owl-theme js-owl-quote">
+                                
+                                <p class="quote-text text-center">Sonsuz aşkınızın ilk adımı için en iyi organizasyon firması olarak sizinle birlikte çalışmaktan gurur duyuyoruz. Nişan ve söz düğününüz unutulmaz olacak.</p>
+                                <p class="quote-text text-center">Aşkınızı unutulmaz bir organizasyonla taçlandırmak için bize güvenin. Nişan ve söz organizasyonlarında sizinle birlikte çalışıyoruz.</p>
+                                <p class="quote-text text-center">Her ayrıntısı düşünülerek planlanmış, gerçekleştirilmiş ve unutulmaz bir organizasyon için bize güvenin. Nişan ve söz organizasyonlarında uzmanız.</p>
+                            </div>
+                            
+                        </div>
+                        
+                    
+                </div>
+                <div class="featured-product v2">
+                    <div class="container">
+                        <h3 class="vow-title">Konseptimiz</h3>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
+                                <div class="product-img">
+                                    <a class="hover-images" href="#"><img src="img/products/pd_1.jpg" alt="" class="img-reponsive"></a>
+                                    <div class="overlay-img v2 box-content-center hover-action">
+                                        <div class="product-action v3">
+                                            <a href="#" class="btn-cart" title="Add to cart"><i class="icon-bag"></i></a>
+                                            <a href="#" class="btn-wishlist" title="Wishlist"><i class="icon-heart"></i></a>
+                                            <a href="#" class="btn-switch" title="Compare"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info v2">
+                                    <h3 class="product-title"><a href="#">Vazoda Çiçekler</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
+                                <div class="product-img">
+                                    <a class="hover-images" href="#"><img src="img/products/pd_2.jpg" alt="" class="img-reponsive"></a>
+                                    <div class="overlay-img v2 box-content-center hover-action">
+                                        <div class="product-action v3">
+                                            <a href="#" class="btn-cart" title="Add to cart"><i class="icon-bag"></i></a>
+                                            <a href="#" class="btn-wishlist" title="Wishlist"><i class="icon-heart"></i></a>
+                                            <a href="#" class="btn-switch" title="Compare"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info v2">
+                                    <h3 class="product-title"><a href="#">Sütunlar ve Şamdanlar</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
+                                <div class="product-img">
+                                    <a class="hover-images" href="#"><img src="img/products/pd_3.jpg" alt="" class="img-reponsive"></a>
+                                    <div class="overlay-img v2 box-content-center hover-action">
+                                        <div class="product-action v3">
+                                            <a href="#" class="btn-cart" title="Add to cart"><i class="icon-bag"></i></a>
+                                            <a href="#" class="btn-wishlist" title="Wishlist"><i class="icon-heart"></i></a>
+                                            <a href="#" class="btn-switch" title="Compare"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info v2">
+                                    <h3 class="product-title"><a href="#">Led Yazı, Fonda Çiçekler</a></h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+
+<div class="feature text-center" style="padding-top: 10px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
+                                <div class="feature-img">
+                                    <img src="img/vow-ship.png" alt="" class="img-reponsive">
+                                </div>
+                                <div class="feature-info">
+                                    <h3>Transfer</h3>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
+                                <div class="feature-img">
+                                    <img src="img/vow-global.png" alt="" class="img-reponsive">
+                                </div>
+                                <div class="feature-info">
+                                    <h3>Kurulum</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
+                                <div class="feature-img">
+                                    <img src="img/vow-gift.png" alt="" class="img-reponsive">
+                                </div>
+                                <div class="feature-info">
+                                    <h3>MÜŞTERİ MEMNUNİYETİ</h3>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
+                                <div class="feature-img">
+                                    <img src="img/vow-telephone.png" alt="" class="img-reponsive">
+                                </div>
+                                <div class="feature-info">
+                                    <h3>İLETİŞİM</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner v3">
+                    <a href="#" class="hover-images"><img src="img/home2_banner.jpg" alt="" class="img-responsive"></a>
+                </div>
+                
+                
+            </section>
+            <footer class="footer-v1">
+                <a href="#" class="scroll-top v5"><i class="ion-ios-arrow-up"></i></a>
+                
+                <div class="copyright v5 bg-copy-v5">
+                    <div class="container">
+                        <div class="row">
+                            <span>Copyright © 2022 Elefante Events. Tüm hakları saklıdır</span>
+                            <ul class="footer-menu">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(".awemenu-nav").headroom();   
+    </script>
+</body>
+
+</html>
